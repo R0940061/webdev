@@ -1,0 +1,26 @@
+.swatch{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 0 0 1em;
+    height: 4em;
+    width: 5em;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+
+.colorPicker {
+    display: flex;
+    align-items: center;
+    border: 5px solid lightgray;
+    padding: 20px;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+
+

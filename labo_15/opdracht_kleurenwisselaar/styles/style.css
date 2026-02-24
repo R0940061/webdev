@@ -1,0 +1,21 @@
+body {
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+
+.color-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.color-btn.actief {
+    background-color: lightblue;
+    color: white;
+}
