@@ -1,0 +1,11 @@
+
+input.invalid {
+    border: 2px solid #e53935;
+    background-color: #fff5f5;
+}
+
+.error {
+    color: #e53935;
+    font-size: 13px;
+    font-weight: bold;
+}

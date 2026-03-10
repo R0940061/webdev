@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Formulier</h1>
+    <table>
+        <tr>
+            <td><label>Is roker</label></td>
+            <td><input type="checkbox" id="roker"></td>
+        </tr>
+        <tr>
+            <td><label>Moedertaal</label></td>
+            <td>
+                <label><input type="radio" name="moedertaal" value="nl"> Nederlands</label>
+                <label><input type="radio" name="moedertaal" value="fr"> Frans</label>
+                <label><input type="radio" name="moedertaal" value="en"> Engels</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Favoriete buurland</label></td>
+            <td>
+                <select id="buurland">
+                    <option value="Nederland">Nederland</option>
+                    <option value="Frankrijk">Frankrijk</option>
+                    <option value="Duitsland">Duitsland</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Bestelling</label></td>
+            <td>
+                <select id="bestelling" multiple size="6">
+                    <option value="aardappelen">aardappelen</option>
+                    <option value="brood">brood</option>
+                    <option value="melk">melk</option>
+                    <option value="biefstuk">biefstuk</option>
+                    <option value="chips">chips</option>
+                    <option value="krant">krant</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <button id="btnToon">Toon resultaat</button>
+</div>
+<script src="scripts/script.js" defer></script>
+</body>
+</html>

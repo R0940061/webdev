@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Registratieformulier</h1>
+    <div class="form-group">
+        <label for="voornaam">Voornaam</label>
+        <div class="input-wrapper">
+            <input type="text" id="voornaam" placeholder="Voornaam">
+            <span class="error" id="error-voornaam"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="familienaam">Familienaam</label>
+        <div class="input-wrapper">
+            <input type="text" id="familienaam" placeholder="Familienaam">
+            <span class="error" id="error-familienaam"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="geboortedatum">Geboortedatum</label>
+        <div class="input-wrapper">
+            <input type="text" id="geboortedatum" placeholder="jjjj-mm-dd">
+            <span class="error" id="error-geboortedatum"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <div class="input-wrapper">
+            <input type="text" id="email" placeholder="email@voorbeeld.be">
+            <span class="error" id="error-email"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="aantalKinderen">Aantal kinderen</label>
+        <div class="input-wrapper">
+            <input type="text" id="aantalKinderen" placeholder="0">
+            <span class="error" id="error-aantalKinderen"></span>
+        </div>
+    </div>
+    <button id="btnValideer">Valideer</button>
+</div>
+<script src="scripts/script.js" defer></script>
+</body>
+</html>
