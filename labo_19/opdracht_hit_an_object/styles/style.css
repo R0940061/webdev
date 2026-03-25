@@ -1,0 +1,12 @@
+#playField {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black; /* Randje toegevoegd zodat je het veld ziet */
+    position: relative;      /* Zorgt dat #target binnen dit vlak blijft */
+    margin-top: 10px;        /* Beetje ruimte onder de knop */
+}
+
+#target {
+    position: absolute;
+    display: none; /* We verbergen het prentje totdat we op START klikken */
+}

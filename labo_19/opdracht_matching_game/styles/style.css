@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+#memoryBoard {
+    display: grid;
+    /* 4 kolommen, pas de breedte (100px) aan op jouw afbeeldingen */
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 3px solid transparent; /* Standaard onzichtbare rand */
+    border-radius: 5px;
+}
+
+/* Visuele indicatoren */
+.correct {
+    border-color: green;
+}
+
+.wrong {
+    border-color: red;
+}
+
+/* We gebruiken visibility in plaats van display:none, anders stort de grid in elkaar */
+.hidden {
+    visibility: hidden;
+}
